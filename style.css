@@ -5,9 +5,20 @@
   z-index: -10;
 }
 
-body{
+/* body{
   background-image: url("./assets/Images/background.jpg");
   background-size: cover;
+} */
+
+.IframeContainer{
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: -1;
+}
+
+iframe{
+  filter: grayscale(0) contrast(1.2) opacity(0.6);
 }
 
 @font-face {
@@ -143,7 +154,6 @@ body{
   display: flex;
   height: fit-content;
   flex-direction: column;
-  /* background-color: white; */
   border-radius: 10px;
   align-items: center;
   gap: 10px;
@@ -187,7 +197,7 @@ body{
   max-width: 100%;
   display: flex;justify-content: center;
   font-family: monospace;
-  background: white;
+  background: rgb(244, 244, 244,0.9);
   padding: 20px;
   border-radius: 20px;
 }
