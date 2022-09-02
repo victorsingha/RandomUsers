@@ -5,6 +5,11 @@
   z-index: -10;
 }
 
+body{
+  background-image: url("./assets/Images/background.jpg");
+  background-size: cover;
+}
+
 @font-face {
   font-family: 'Westiva_Medium';
   src: url('./assets/Fonts/Westiva\ Medium.ttf') format('truetype');
